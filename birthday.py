@@ -36,8 +36,8 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-input("What is your name? ")
-input("Hi {0}, what was the name of the month you were born in? ")
+n = input("What is your name? ")
+m = input("Hi " + n + ", what was the name of the month you were born in? ")
 
 
 
