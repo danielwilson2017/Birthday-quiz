@@ -31,8 +31,13 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
 input("What is your name? ")
-input("Hi " + {0} + "What month were you born in? ")
+input("Hi {0}, what was the name of the month you were born in? ")
 
 
 
