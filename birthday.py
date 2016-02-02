@@ -39,7 +39,7 @@ todaydate = datetime.today().day
 
 n = input("What is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
-q = float(input("What year were you born in, " + n + "? "))
+y = float(input("What year were you born in, " + n + "? "))
 d = float(input("And the day? "))
 
 
@@ -51,10 +51,13 @@ elif m in ["June", "July", "August"]:
     Season = ("summer")
 elif m in ["September", "October", "November"]:
     Season = ("fall")
-
+    
 print(Season)
     
+if y >= 1980 and <= 1989 :
+    years = ("The eighties")
     
+print(years)
     
     
     
