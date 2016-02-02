@@ -52,7 +52,7 @@ elif m in ["June", "July", "August"]:
 elif m in ["September", "October", "November"]:
     Season = ("fall")
     
-print(Season)
+
     
 if y >= 1980 and y <= 1989 :
     years = ("the eighties")
