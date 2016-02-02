@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Daniel Wilson
 Credit: <list sources used, if any>
 Assignment:
 
@@ -38,9 +38,9 @@ todaydate = datetime.today().day
 
 n = input("What is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
-
-
-
+q = input("What year were you born in, " + n + "? ")
+d = input("And the day? ")
+if
 
 
 
