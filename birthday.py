@@ -54,8 +54,12 @@ elif m in ["September", "October", "November"]:
     
 print(Season)
     
-if y >= 1980 and <= 1989 :
-    years = ("The eighties")
+if y >= 1980 and y <= 1989 :
+    years = ("the eighties")
+elif y >= 1990 and y <= 1999 :
+    years = ("the nineties")
+elif y >= 2000 and y <= 2016 :
+    years = ("the two thousands")
     
 print(years)
     
