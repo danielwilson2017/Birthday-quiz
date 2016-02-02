@@ -58,8 +58,10 @@ if y >= 1980 and y <= 1989 :
     years = ("the eighties")
 elif y >= 1990 and y <= 1999 :
     years = ("the nineties")
-elif y >= 2000 and y <= 2016 :
+elif y >= 2000 and y <= 2020 :
     years = ("the two thousands")
+elif y < 1980 :
+    years = ("the STONE AGE")
     
 print(years)
     
