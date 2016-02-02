@@ -36,21 +36,12 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
+
+
 n = input("What is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
 q = float(input("What year were you born in, " + n + "? "))
 d = float(input("And the day? "))
-January = 1
-Febuary = 2
-March = 3
-April = 4
-May = 5
-June = 6
-July = 7
-August = 8
-September = 9
-October = 10
-November = 11
-December = 12
 
-
+if m = [12, 1, 2]:
+    print("cold")
