@@ -52,7 +52,7 @@ elif m in ["June", "July", "August"]:
 elif m in ["September", "October", "November"]:
     Season = ("fall")
 
-print(season)
+print(Season)
     
     
     
