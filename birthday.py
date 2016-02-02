@@ -37,11 +37,27 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 
-
 n = input("What is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
 q = float(input("What year were you born in, " + n + "? "))
 d = float(input("And the day? "))
 
-if m = [12, 1, 2]:
-    print("cold")
+
+if m in ["December", "January", "February"] :
+    Season = ("winter")
+elif m in ["March", "April", "May"]:
+    Season = ("spring")
+elif m in ["June", "July", "August"]:
+    Season = ("summer")
+elif m in ["September", "October", "November"]:
+    Season = ("fall")
+
+print(season)
+    
+    
+    
+    
+    
+    
+    
+    
