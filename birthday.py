@@ -62,7 +62,8 @@ elif y >= 2000 and y <= 2020 :
 elif y < 1980 :
     years = ("the STONE AGE")
 
-if m == datetime.today().month and d == datetime.today().day
+
+if m == todaymonth and d == todaydate :
     print("Happy Birthday")
 elif d == 31 and m == "October" :
     H = ("Halloween")
