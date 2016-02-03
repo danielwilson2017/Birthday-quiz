@@ -67,7 +67,5 @@ if m == todaymonth and d == todaydate :
     print("Happy Birthday")
 elif d == 31 and m == "October" :
     H = ("Halloween")
-
-    
-    
-    
+else :
+    print(n + " you are a " + Season + "baby of the " + years)
