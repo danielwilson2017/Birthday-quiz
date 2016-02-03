@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Daniel Wilson
-Credit: <list sources used, if any>
+Credit: SSupattapone
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -63,7 +63,7 @@ elif y < 1980 :
     years = ("the STONE AGE")
 
 
-if m == todaymonth and d == todaydate :
+if m == month_name [todaymonth] and d == todaydate :
     print("Happy Birthday")
 elif d == 31 and m == "October" :
     print("You were born on Halloween!")
