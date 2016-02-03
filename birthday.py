@@ -62,10 +62,11 @@ elif y >= 2000 and y <= 2020 :
     years = ("the two thousands")
 elif y < 1980 :
     years = ("the STONE AGE")
-    
-if d == 31 and m == "October" :
+
+if     
+elif d == 31 and m == "October" :
     H = ("Halloween")
-    
+
     
     
     
