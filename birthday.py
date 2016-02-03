@@ -64,7 +64,7 @@ elif y < 1980 :
     years = ("the STONE AGE")
     
 if d == 31 and m == "October" :
-    H = (
+    H = ("Halloween")
     
     
     
