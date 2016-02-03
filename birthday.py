@@ -36,7 +36,6 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-
 n = input("What is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
 y = float(input("What year were you born in, " + n + "? "))
@@ -63,7 +62,8 @@ elif y >= 2000 and y <= 2020 :
 elif y < 1980 :
     years = ("the STONE AGE")
 
-if     
+if m == datetime.today().month and d == datetime.today().day
+    print("Happy Birthday")
 elif d == 31 and m == "October" :
     H = ("Halloween")
 
