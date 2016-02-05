@@ -64,7 +64,7 @@ elif y < 1980 :
 
 
 if m == month_name [todaymonth] and d == todaydate :
-    print("Happy Birthday!")
+    print("Happy birthday!")
 elif d == 31 and m == "October" :
     print("You were born on Halloween!")
 else :
