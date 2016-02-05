@@ -54,9 +54,9 @@ elif m in ["September", "October", "November"]:
 
     
 if y >= 1980 and y <= 1989 :
-    years = ("the eighties")
+    years = ("eighties")
 elif y >= 1990 and y <= 1999 :
-    years = ("the nineties")
+    years = ("nineties")
 elif y >= 2000 and y <= 2020 :
     years = ("two thousands")
 elif y < 1980 :
