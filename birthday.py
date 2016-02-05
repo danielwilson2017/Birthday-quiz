@@ -68,7 +68,7 @@ if m == month_name [todaymonth] and d == todaydate :
 elif d == 31 and m == "October" :
     print("You were born on Halloween!")
 else :
-    print(n + ", you are a " + Season + "baby of the " + years + ".")
+    print(n + ", you are a " + Season + " baby of the " + years + ".")
     
     
     
