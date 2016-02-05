@@ -60,7 +60,7 @@ elif y >= 1990 and y <= 1999 :
 elif y >= 2000 and y <= 2020 :
     years = ("two thousands")
 elif y < 1980 :
-    years = ("the STONE AGE")
+    years = ("stone age")
 
 
 if m == month_name [todaymonth] and d == todaydate :
